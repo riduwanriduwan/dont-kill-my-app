@@ -1,4 +1,13 @@
----
+[ 05-25 18:10:17.167 4230:16683 D/PFW.HwPFWAppWakeLockPolicy ]
+getUidWakeLock uid: 10185 wakelock >= 10 mins
+
+
+[ 05-25 18:10:17.249 4230:16683 W/PFW.HwPFWAppWakeLockPolicy ]
+uid: 10185 wakelock > 60 mins
+
+
+[ 05-25 18:10:17.249 4230:16683 D/PFW.HwPFWAppWakeLockPolicy ]
+force stop abnormal wakelock app ---
 manufacturer:
     - huawei
 
@@ -138,3 +147,4 @@ Open Settings, and search for and access Ignore battery optimization. Touch the 
 * *Phone settings > Battery > Launch* and then set your app to “Manage manually” and make sure everything is turned on.
 
 On EMUI 4 there is no way out, sorry, but you can ask developers of your apps to implement the workaround described in <a href="#developer-solution-section">Developer section</a>
+<a href="https://dontkillmyapp.com/huawei"><img id="badge-shareable" width="306px" src="https://dontkillmyapp.com/badge/huawei3.svg"></a>
